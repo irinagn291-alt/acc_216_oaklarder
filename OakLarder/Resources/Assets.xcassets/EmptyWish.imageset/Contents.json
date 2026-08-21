@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_empty_wish.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, empty glass wish jar with cork"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}

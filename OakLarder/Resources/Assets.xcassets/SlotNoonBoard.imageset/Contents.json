@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_slot_noon.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, noon charcuterie board on oak"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}

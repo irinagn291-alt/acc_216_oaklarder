@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_tex_plank.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k seamless antique oak table plank material texture"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}

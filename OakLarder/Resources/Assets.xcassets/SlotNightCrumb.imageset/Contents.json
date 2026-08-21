@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_slot_night.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, night crumb still life with cheese heel and candle"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}

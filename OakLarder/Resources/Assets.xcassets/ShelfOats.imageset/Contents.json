@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_shelf_oats.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, linen sack of oak-smoked porridge oats"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}

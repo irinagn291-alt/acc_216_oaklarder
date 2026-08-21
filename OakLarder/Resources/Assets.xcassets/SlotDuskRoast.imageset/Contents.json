@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_slot_dusk.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, dusk roast in a cast-iron pan"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}

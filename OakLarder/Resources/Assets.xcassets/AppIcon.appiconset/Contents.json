@@ -1,0 +1,15 @@
+{
+  "images": [
+    {
+      "filename": "AppIcon.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "size": "1024x1024"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, carved dark-oak pantry door, oval antique brass plaque with acorn and wheat sheaf, no text"
+  }
+}

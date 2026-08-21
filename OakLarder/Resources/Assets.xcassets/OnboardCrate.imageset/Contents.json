@@ -1,0 +1,17 @@
+{
+  "images": [
+    {
+      "filename": "oak_onboard_crate.png",
+      "idiom": "universal",
+      "scale": "1x"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1,
+    "comment": "Photoreal octane render, 4k, rustic wooden crate stamped with a barcode"
+  },
+  "properties": {
+    "template-rendering-intent": "original"
+  }
+}
