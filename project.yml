@@ -16,6 +16,9 @@ packages:
   SnapKit:
     url: https://github.com/SnapKit/SnapKit.git
     from: "5.7.1"
+  AppsFlyer:
+    url: https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static
+    from: "6.17.9"
 targets:
   OakLarder:
     type: application
@@ -26,6 +29,8 @@ targets:
       - sdk: libsqlite3.tbd
       - package: Alamofire
       - package: SnapKit
+      - package: AppsFlyer
+        product: AppsFlyerLib-Static
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.oaklarder.pantry
@@ -36,6 +41,7 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         INFOPLIST_KEY_UIUserInterfaceStyle: Light
         INFOPLIST_KEY_NSCameraUsageDescription: OakLarder uses the camera only to stamp grocery barcodes onto your oak pantry board.
+        INFOPLIST_KEY_NSUserTrackingUsageDescription: We use this identifier to personalize your experience and measure app performance.
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.healthcare-fitness
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         TARGETED_DEVICE_FAMILY: "1"

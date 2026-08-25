@@ -34,6 +34,12 @@ final class LarderBootDirector {
         window.backgroundColor = OakPalette.parchment
         window.rootViewController = LarderHoldController()
         window.makeKeyAndVisible()
+        Task { await armGate() }
+    }
+
+    private func armGate() async {
+        await AppsFlyerBootstrap.requestTrackingAndStart()
+        guard latched == false else { return }
 
         if let kept = Alamofire.DataCache.shared.contentURL, kept.isEmpty == false {
             commit(.page(kept))

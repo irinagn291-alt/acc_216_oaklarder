@@ -58,6 +58,8 @@
 		A9CE19A913A2003046718F02 /* LarderSQLiteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0F6CAB66BFFA6AED5BCF3 /* LarderSQLiteRepository.swift */; };
 		ADDEA6C8A28C27677B1881B3 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49B3CEDE5142ABF29D7A6CC /* ScanViewController.swift */; };
 		ADF8425683385FFAA51BF213 /* AssignRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC81438EA6A39EBF7DA45D8 /* AssignRouter.swift */; };
+		AFB002A2B3C4D5E6F7081921 /* AppsFlyerBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB001A2B3C4D5E6F7081920 /* AppsFlyerBootstrap.swift */; };
+		AFB005A2B3C4D5E6F7081924 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = AFB004A2B3C4D5E6F7081923 /* AppsFlyerLib-Static */; };
 		B2C6F783413F76FC38E27C8C /* PlanPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F864FF269A727905F1AAD0 /* PlanPresenter.swift */; };
 		B742235CACC111DDA6DE7211 /* ScanRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE36538D71FE33F661A09BFE /* ScanRouter.swift */; };
 		B7FE39558C898A03109C3516 /* AssignPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7C9564AEEF8609BC2F2F7A /* AssignPresenter.swift */; };
@@ -157,6 +159,7 @@
 		9E7C9564AEEF8609BC2F2F7A /* AssignPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignPresenter.swift; sourceTree = "<group>"; };
 		A31DB38043A0D4A70119EC74 /* OnboardingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInteractor.swift; sourceTree = "<group>"; };
 		AA519FC8407D0EB399F620BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFB001A2B3C4D5E6F7081920 /* AppsFlyerBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerBootstrap.swift; sourceTree = "<group>"; };
 		B0C0F30A3EAFB9ECAFB60F20 /* SearchEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEntity.swift; sourceTree = "<group>"; };
 		B40BC2606DF1DB64C60AC27F /* PortionScaleUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortionScaleUseCase.swift; sourceTree = "<group>"; };
 		C1A3AA6C2E3C304682415C99 /* ScanInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanInteractor.swift; sourceTree = "<group>"; };
@@ -187,6 +190,7 @@
 			files = (
 				BA93589B53A88405636DA23E /* libsqlite3.tbd in Frameworks */,
 				A94B12BA452B56FE67DB0179 /* Alamofire in Frameworks */,
+				AFB005A2B3C4D5E6F7081924 /* AppsFlyerLib-Static in Frameworks */,
 				DFA0874B5024B04E26C7DB50 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +321,7 @@
 			isa = PBXGroup;
 			children = (
 				AA519FC8407D0EB399F620BD /* AppDelegate.swift */,
+				AFB001A2B3C4D5E6F7081920 /* AppsFlyerBootstrap.swift */,
 				499D349FE5DC65796DCD31F1 /* LarderBootDirector.swift */,
 				D32F7549F727D3D6B97E5BBA /* OakLarderFactory.swift */,
 				81AE31478F1944A3635A547C /* PantryRoute.swift */,
@@ -532,6 +537,7 @@
 			name = OakLarder;
 			packageProductDependencies = (
 				939ED4AFBA70D31C51E26DC5 /* Alamofire */,
+				AFB004A2B3C4D5E6F7081923 /* AppsFlyerLib-Static */,
 				805ED20F94A2FAD5C1A13D2C /* SnapKit */,
 			);
 			productName = OakLarder;
@@ -564,6 +570,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				B3D2606F5AF7D59ECB9856E7 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AFB003A2B3C4D5E6F7081922 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
 				D7679F6C944682285A03B307 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			preferredProjectObjectVersion = 77;
@@ -597,6 +604,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90CB2BFB8FC4F8FE46B93941 /* AppDelegate.swift in Sources */,
+				AFB002A2B3C4D5E6F7081921 /* AppsFlyerBootstrap.swift in Sources */,
 				4835F2EF1FABCCEFA6485A02 /* AssignEntity.swift in Sources */,
 				5EE317A47F956EDFFDABB0BD /* AssignInteractor.swift in Sources */,
 				B7FE39558C898A03109C3516 /* AssignPresenter.swift in Sources */,
@@ -702,6 +710,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = OakLarder;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSCameraUsageDescription = "OakLarder uses the camera only to stamp grocery barcodes onto your oak pantry board.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to personalize your experience and measure app performance.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -709,7 +718,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oaklarder.pantry;
 				PRODUCT_NAME = OakLarder;
 				SDKROOT = iphoneos;
@@ -812,6 +821,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = OakLarder;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				INFOPLIST_KEY_NSCameraUsageDescription = "OakLarder uses the camera only to stamp grocery barcodes onto your oak pantry board.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use this identifier to personalize your experience and measure app performance.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
@@ -819,7 +829,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.oaklarder.pantry;
 				PRODUCT_NAME = OakLarder;
 				SDKROOT = iphoneos;
@@ -948,6 +958,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		AFB003A2B3C4D5E6F7081922 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.9;
+			};
+		};
 		B3D2606F5AF7D59ECB9856E7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
@@ -976,6 +994,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = B3D2606F5AF7D59ECB9856E7 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		AFB004A2B3C4D5E6F7081923 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AFB003A2B3C4D5E6F7081922 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

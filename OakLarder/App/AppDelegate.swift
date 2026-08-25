@@ -7,6 +7,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
     ) -> Bool {
         PantryRoute.bind()
+        AppsFlyerBootstrap.configure(launchOptions: launchOptions)
         return true
     }
 
